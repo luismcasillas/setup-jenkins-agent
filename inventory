@@ -1,0 +1,3 @@
+[agents]
+<ip of agent> ansible_connection=ssh ansible_user=<agent username> ansible_password=<agent password> ansible_become_password=<agent sudo password> ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+[agents:vars]
